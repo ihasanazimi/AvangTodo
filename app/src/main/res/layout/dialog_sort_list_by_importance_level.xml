@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="8dp"
+        android:drawableStart="@drawable/ic_outline_info_24_2"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:singleLine="true"
+        android:text="@string/sort_lists_by"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:drawablePadding="12dp"
+        android:gravity="start|center_vertical"
+        android:maxLines="2"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:text="@string/this_change_only_applies_to_the_main_list"
+        android:textColor="@color/grayDarker3"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/strok_rectangle"
+            android:orientation="horizontal"
+            android:paddingStart="4dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:id="@+id/DESC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingStart="6dp">
+
+                <ImageView
+                    android:id="@+id/high"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:padding="4dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="@color/purple_500"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical|start"
+                    android:paddingStart="6dp"
+                    android:paddingEnd="4dp"
+                    android:singleLine="true"
+                    android:text="@string/descending_sorting"
+                    android:textColor="@android:color/black"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/strok_rectangle"
+            android:orientation="horizontal"
+            android:paddingStart="4dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:id="@+id/ASC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingStart="6dp">
+
+                <ImageView
+                    android:id="@+id/low"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:background="@drawable/ic_circle"
+                    android:backgroundTint="@color/lowImportanceColor"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical|start"
+                    android:paddingStart="6dp"
+                    android:paddingEnd="4dp"
+                    android:singleLine="true"
+                    android:text="@string/ascending_sorting"
+                    android:textColor="@android:color/black"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/strok_rectangle"
+        android:orientation="horizontal"
+        android:paddingStart="4dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="3dp">
+
+
+        <LinearLayout
+            android:id="@+id/no_sort"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingStart="6dp"
+                android:paddingEnd="4dp"
+                android:textAllCaps="true"
+                android:singleLine="true"
+                android:text="@string/no_sort"
+                android:textColor="@android:color/black"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

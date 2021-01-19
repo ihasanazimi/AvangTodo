@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">آونگ تودو</string>
+    <string name="des_ImageView">این یک متن تستی می باشد</string>
+    <string name="save_changes">افزودن تسک</string>
+    <string name="edit_task">ویرایش تسک</string>
+    <string name="add_Task">  تسک جدید</string>
+    <string name="highTitle">زیاد</string>
+    <string name="normalTitle">عادی</string>
+    <string name="lowTitle">کـم</string>
+    <string name="add_a_task_for_today_hint">تسک خود را اینجا بنویسید…</string>
+    <string name="no_to_do_list_found_en">لیست وظیفه ای یافت نشد..!</string>
+    <string name="do_you_want_to_delete_all_items">آیا میخواهید تمام موارد حذف شوند؟</string>
+    <string name="cancel">انصراف</string>
+    <string name="yes_i_m_sure">حذف همه</string>
+    <string name="yourTask">تسک شما</string>
+    <string name="today">امروز</string>
+    <string name="delete_all">حذف همه</string>
+    <string name="search_task">جستجوی تسک…</string>
+    <string name="the_importance_of_your_tasks">انتخاب میزان اهمیت تسک</string>
+    <string name="search_hint">اینجا جستجو کنید..</string>
+    <string name="success_msg">تسک ها با موفقیت حذف شدند</string>
+    <string name="done">انجام شد</string>
+    <string name="do_you_want_to_exit_the_application">برای خروج دوباره کلیک کنید</string>
+    <string name="exit">خروج</string>
+    <string name="delete">حذف</string>
+    <string name="are_you_sure_you_want_to_delete_this_task">آیا مطمئن هستید که می خواهید این تسک را حذف کنید؟</string>
+    <string name="click_des">با این اکشن شما وضعیت انجام تسک را تعریف میکنید، به این صورت که با هر کلیک مشخص میکنید که تسک انتخابی را انجام داده اید یا خیر!</string>
+    <string name="click_title">کلیک روی آیتم :</string>
+    <string name="long_click_des">با این عمل می توانید تسک انتخاب شده را ویرایش یا حذف کنید.</string>
+    <string name="long_click_title">کلیک طولانی یا کشیدن روی آیتم :</string>
+    <string name="ok">فهمیدم ممنون</string>
+    <string name="completed_tasks">تسک های انجام شده</string>
+    <string name="sort_lists_by">مرتب سازی تسک ها بر معیار میزان اهمیت :</string>
+    <string name="ascending_sorting">کم اهمیت</string>
+    <string name="descending_sorting">پر اهمیت</string>
+    <string name="close">بستن</string>
+    <string name="this_change_only_applies_to_the_main_list">این تغییر فقط روی لیست اصلی اعمال می شود</string>
+    <string name="msg_deletedCompletedList">لیست تسک های کامل شده شما با موفقیت حدف شد</string>
+
+
+    <string name="enter_the_name_of_the_desired_category">نام دسته مورد نظر را وارد کنید</string>
+    <string name="add_category">افزودنِ دسته بندی</string>
+    <string name="none">None</string>
+    <string name="choose_category">برای تسک خود یک دسته بندی انتخاب کنید (اختیاری)</string>
+    <string name="empty_error_for_add_category_input">لطفاً یک عنوان برای دسته بندی وارد کنید</string>
+    <string name="filter">اعمال فیلتر</string>
+    <string name="all_items">همه موارد</string>
+    <string name="filter_by_category_criterion">فیلتر لیست بر معیار دسته بندی :</string>
+    <string name="clear_filters">حذف فیلتر</string>
+    <string name="no_sort">نمایش نرمال</string>
+
+
+
+    <string name="help">راهنما</string>
+    <string name="about_us">درباره ما</string>
+    <string name="setting">تنظیمات</string>
+    <string name="developer_name">Hasan Azimi</string>
+
+    <string name="email_id">ihasan.azimi@gmail.com</string>
+    <string name="email_title">Email :</string>
+
+    <string name="instagram_id">ihasan.azimi</string>
+    <string name="instagram_title">Instagram :</string>
+
+    <string name="linkdin_id">ihasanazimi</string>
+    <string name="linkdin_title">Linkdin :</string>
+
+    <string name="duplicatin_error">این دسته بندی تکراری می باشد</string>
+    <string name="def_cat_error">شما قادر به حذف دسته بندی پیشفرض نیستید</string>
+
+
+    <string name="sure">مطمئن هستی؟</string>
+    <string name="yes_cats">بله</string>
+    <string name="not_confirm">مطابقت ندارد</string>
+    <string name="its_true">خوش آمدید</string>
+
+
+    <string name="authentication">اهراز هویت</string>
+    <string name="auth_subtitle">برای ادامه لطفا سنسور را لمس کنید</string>
+    <string name="auth_des">اهراز هویت توسط سنسور اثر انگشت\nلطفا اگر اثر انگشتی ثبت نکرده اید،برای اضافه کردن اثر انگشت جدید به تنظیمات امنیتی دستگاه مراجعه کنید</string>
+    <string name="categories_list_title">حذف دسته بندی</string>
+    <string name="cat_dess">لیست کامل دسته های موجود را حذف می کند</string>
+    <string name="try_again">تلاش مجدد</string>
+    <string name="msggg">شرح خطا :</string>
+    <string name="tip">نکته فقط جهت اطلاع</string>
+    <string name="msgSup">دستگاه شما از این قابلیت پشتیبانی نمیکند</string>
+
+    <string name="setting_auth_desssssssssssssss">احراز هویت توسط حسگر اثر انگشت</string>
+
+
+    <string name="android_version_error">The Android version of your device does not support this feature</string>
+
+
+    <string name="app_usable_title">این اپلیکیشن چه کاربردی داره؟</string>
+    <string name="app_usable_des">این اپلیکیشن مناسب کاربرانی می باشد قصد مدیریت کار های روزانه خود را دارند.میتوانند به کار های خود اولویت ببخشند و وضعیت انجام آن ها را مدیریت کنند.
+بطور مثال میتوانند لیست خرید خود را یادداشت کنند و با مدیریت اینکه چه خرید هایی در اولویت هستند یا خرید شده اند یا خیر ، به راحتی خریدشان را انجام دهند.
+بطور مثال میتوانند لیست کار های روزانه خود را در اداره یادداشت و به ترتیب بر حسب اهمیت مورد مربوطه کارهایشان را مدیریت و انجام دهند.
+و لیستی از کار های انجام شده و کار های انجام نشده خود را مشاهده کنند.</string>
+
+
+</resources>
