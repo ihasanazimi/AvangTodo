@@ -15,9 +15,9 @@
             android:id="@+id/appBarMainActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white2"
             android:descendantFocusability="beforeDescendants"
             android:focusable="false"
-            android:background="@color/white2"
             android:focusableInTouchMode="true"
             android:paddingBottom="4dp"
             app:liftOnScroll="true">
@@ -26,8 +26,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="false"
                 android:background="@drawable/background_gradient_primary_color"
+                android:focusable="false"
                 android:focusableInTouchMode="true"
                 android:orientation="vertical"
                 app:layout_scrollFlags="scroll|enterAlways">
@@ -85,8 +85,8 @@
                                 android:layout_marginBottom="2dp"
                                 android:background="@drawable/ic_circle"
                                 android:backgroundTint="@color/teal_200"
-                                app:elevation="3dp"
                                 android:visibility="gone"
+                                app:elevation="3dp"
                                 app:layout_constraintBottom_toBottomOf="@+id/ivFilter"
                                 app:layout_constraintEnd_toStartOf="@+id/ivSort"
                                 app:layout_constraintStart_toStartOf="@+id/ivFilter" />
@@ -99,8 +99,8 @@
                                 android:layout_marginBottom="2dp"
                                 android:background="@drawable/ic_circle"
                                 android:backgroundTint="@color/teal_200"
-                                app:elevation="3dp"
                                 android:visibility="gone"
+                                app:elevation="3dp"
                                 app:layout_constraintBottom_toBottomOf="@+id/ivSort"
                                 app:layout_constraintEnd_toEndOf="@+id/ivSort"
                                 app:layout_constraintStart_toStartOf="@+id/ivSort" />
@@ -129,8 +129,9 @@
                         android:gravity="center_vertical|start"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"
-                        android:textColor="@color/white"
+                        android:singleLine="true"
                         android:text="@string/app_name"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -189,6 +190,7 @@
                     android:gravity="center_vertical|start"
                     android:paddingStart="8dp"
                     android:paddingEnd="16dp"
+                    android:singleLine="true"
                     android:text="@string/delete_all"
                     android:textSize="14sp"
                     tools:targetApi="m" />
@@ -214,6 +216,7 @@
                             android:layout_marginEnd="8dp"
                             android:focusable="false"
                             android:gravity="center"
+                            android:singleLine="true"
                             android:text="@string/today"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -226,7 +229,8 @@
                             android:alpha="0.3"
                             android:focusable="false"
                             android:gravity="center"
-                            android:textSize="14sp"
+                            android:singleLine="true"
+                            android:textSize="12sp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -286,6 +290,7 @@
                             android:gravity="start|center_vertical"
                             android:paddingStart="16dp"
                             android:paddingEnd="8dp"
+                            android:singleLine="true"
                             android:text="@string/completed_tasks"
                             android:textColor="@android:color/black"
                             android:textSize="14sp"
@@ -327,6 +332,7 @@
                                 android:gravity="center_vertical|start"
                                 android:paddingStart="8dp"
                                 android:paddingEnd="16dp"
+                                android:singleLine="true"
                                 android:text="@string/delete_all"
                                 android:textSize="14sp"
                                 tools:targetApi="m" />
